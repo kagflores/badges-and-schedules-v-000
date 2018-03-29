@@ -23,6 +23,7 @@ end
 
 def printer(speakers)
   output = batch_badge_creator(speakers)
+  binding.pry
   print output
   #badge_message.each {|message| puts message}
   assign_rooms(speakers)
