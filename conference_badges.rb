@@ -23,7 +23,7 @@ end
 
 def printer(speakers)
   batch_badge_creator(speakers)
-  badge_maker
+  badge_maker(speakers)
   #badge_message.each {|message| puts message}
   assign_rooms(speakers)
   #room_assignment.each {|phrase| puts phrase}
